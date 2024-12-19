@@ -1,0 +1,2018 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26120) 64bit Core' Language: 'ko' Physical Memory: 15964 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/SY/Documents/GitHub/Project-KV/Unity project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60523
+Successfully changed project path to: C:/Users/SY/Documents/GitHub/Project-KV/Unity project
+C:/Users/SY/Documents/GitHub/Project-KV/Unity project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32104] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 888599997 [EditorId] 888599997 [Version] 1048832 [Id] WindowsEditor(7,BOOK-6HIUG2I3MK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32104] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 888599997 [EditorId] 888599997 [Version] 1048832 [Id] WindowsEditor(7,BOOK-6HIUG2I3MK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 17 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SY/Documents/GitHub/Project-KV/Unity project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     7982 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.039845 seconds.
+- Loaded All Assemblies, in  1.560 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.746 seconds
+Domain Reload Profiling: 3300ms
+	BeginReloadAssembly (529ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (229ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (625ms)
+			TypeCache.Refresh (622ms)
+				TypeCache.ScanAssembly (581ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (42ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (770ms)
+			ProcessInitializeOnLoadMethodAttributes (468ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.402 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1906ms
+	BeginReloadAssembly (985ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (168ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (191ms)
+	LoadAllAssembliesAndSetupDomain (17ms)
+		LoadAssemblies (661ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.7 KB). Loaded Objects now: 481.
+Memory consumption went from 53.1 MB to 53.0 MB.
+Total: 2.699600 ms (FindLiveObjects: 0.037500 ms CreateObjectMapping: 0.003800 ms MarkObjects: 2.576200 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 810966.252146 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7df909032c17adb7e86a316af388dec') in 0.334661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_168.asset
+  artifactKey: Guid(0b3ebabfc9876d84bba8a143441d6dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_168.asset using Guid(0b3ebabfc9876d84bba8a143441d6dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8ef2faa196d2ced7dd2f3d0bb1d0726') in 0.105509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_158.asset
+  artifactKey: Guid(a8b394836c1ddb8439426ad8a1afba18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_158.asset using Guid(a8b394836c1ddb8439426ad8a1afba18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d970a0fc7561daff9d27b463be22c7b') in 0.035438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010069 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_160.asset
+  artifactKey: Guid(080670e6b3414d148a6d2eff7a795fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_160.asset using Guid(080670e6b3414d148a6d2eff7a795fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deb956b2d2e9d05919ea13a66f15e2ac') in 0.104788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_157.asset
+  artifactKey: Guid(a01f3dfc8f0090949a0d1780b19215be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_157.asset using Guid(a01f3dfc8f0090949a0d1780b19215be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e390f4ebf3fde9e38e63ab25997bed59') in 0.066526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012509 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_118.asset
+  artifactKey: Guid(a1a2d78e5ff8f1f4caec1f4110810811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_118.asset using Guid(a1a2d78e5ff8f1f4caec1f4110810811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88808135c7486da586f32937f7d114dd') in 0.052030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001626 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_27.asset
+  artifactKey: Guid(a239aa495c8f55445bf0636b396fecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_27.asset using Guid(a239aa495c8f55445bf0636b396fecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc229fcd995c4e026b83b1dd8c6811bd') in 0.037810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_21.asset
+  artifactKey: Guid(fba6f196a4b2ebb45b5a0077780c9cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_21.asset using Guid(fba6f196a4b2ebb45b5a0077780c9cc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '795013b208d6daff65ed134c6fe91def') in 0.041676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002487 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_129.asset
+  artifactKey: Guid(72d3b1749d9cb75418b3a89cb4d24568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_129.asset using Guid(72d3b1749d9cb75418b3a89cb4d24568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41ff0e0e163f44582af45502588b0107') in 0.034880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_15.asset
+  artifactKey: Guid(6baadd2097ea5154d95e5f72a3789b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_15.asset using Guid(6baadd2097ea5154d95e5f72a3789b4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adcc03492f48d1b0ddfe3d9916a20e78') in 0.044394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_146.asset
+  artifactKey: Guid(7d82d837c082d60429391fc3e8470570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_146.asset using Guid(7d82d837c082d60429391fc3e8470570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7169ad1b4b72806c93a1f4382faa2e8') in 0.036430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003167 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_22.asset
+  artifactKey: Guid(c084f36eed138834285df00ba088ad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_22.asset using Guid(c084f36eed138834285df00ba088ad9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deba81bb0fbd2194ed5f206683e89165') in 0.055332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_32.asset
+  artifactKey: Guid(dcdca9a3334b7d142932bfe8e6115296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_32.asset using Guid(dcdca9a3334b7d142932bfe8e6115296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f07f3106448a8fd510bb748d55905536') in 0.063702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_24.asset
+  artifactKey: Guid(19d7ff7a4a19fe040983527ca36818e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_24.asset using Guid(19d7ff7a4a19fe040983527ca36818e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f86cfbad5e8779a9254fe467362540ca') in 0.064561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001489 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_170.asset
+  artifactKey: Guid(9d2bc5922bfcfe4489d56c3b5a315876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_170.asset using Guid(9d2bc5922bfcfe4489d56c3b5a315876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb0e757f1bc7b7978d36f496a396d5a4') in 0.040954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_121.asset
+  artifactKey: Guid(45301855ceffec44386eb829a1e14499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_121.asset using Guid(45301855ceffec44386eb829a1e14499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eb192ffc21cc05d2d150af3b4c059b7') in 0.039489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_1.asset
+  artifactKey: Guid(465274d789a4e8949b5c6fa81dfe9c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_1.asset using Guid(465274d789a4e8949b5c6fa81dfe9c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c64b30286599b1e4dda7d5bff40ebb30') in 0.062225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_132.asset
+  artifactKey: Guid(484b44fa41d3a1444838a749414aa604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_132.asset using Guid(484b44fa41d3a1444838a749414aa604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86a0d2c35952222bcefedcd469e79146') in 0.065087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_115.asset
+  artifactKey: Guid(480386de5444ac84a860899ab47252cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_115.asset using Guid(480386de5444ac84a860899ab47252cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7542c7498ea6b7668f28c9062d7e334b') in 0.108522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002592 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_108.asset
+  artifactKey: Guid(31b144440142cba4d806dbedf1aab622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_108.asset using Guid(31b144440142cba4d806dbedf1aab622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c35926f2a600da7d3483c9a1712eea2e') in 0.046554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_153.asset
+  artifactKey: Guid(54eb84ab6069be1438e083dfa9d4e4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_153.asset using Guid(54eb84ab6069be1438e083dfa9d4e4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '279251fbf95c380cbe6293b7b008ba82') in 0.041975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_123.asset
+  artifactKey: Guid(267efcf00b98fc846b62b5cfef0b109b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_123.asset using Guid(267efcf00b98fc846b62b5cfef0b109b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c78c0bd9b912e1a1e9f6e61ffe89ce35') in 0.049173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000885 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_149.asset
+  artifactKey: Guid(9b5f2c1e960e0474eaadb6754604da9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_149.asset using Guid(9b5f2c1e960e0474eaadb6754604da9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05bdba9f7a41a74e711211ae79e44f3a') in 0.157922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_106.asset
+  artifactKey: Guid(3a5f3f3ad26e8eb43932337580b92156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_106.asset using Guid(3a5f3f3ad26e8eb43932337580b92156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5aaca7e75f5f231670f2cf9e98b8336') in 0.096632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_101.asset
+  artifactKey: Guid(0088e21afba10de41afba689723747d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_101.asset using Guid(0088e21afba10de41afba689723747d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '697a78a186c3ad9a58e4ca6f58749641') in 0.067850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_60.asset
+  artifactKey: Guid(1ae25dcec346647419d7e3bd58d3e632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_60.asset using Guid(1ae25dcec346647419d7e3bd58d3e632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89fca02b79ea2d5417303cdc70acfe04') in 0.076413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_58.asset
+  artifactKey: Guid(7d63c7ad5404b2c49bea0080e0350b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_58.asset using Guid(7d63c7ad5404b2c49bea0080e0350b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a95786381b2e85a2fd3fec75353cbde') in 0.065603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002658 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_54.asset
+  artifactKey: Guid(86a73d71437726747a0e3d723eb6608f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_54.asset using Guid(86a73d71437726747a0e3d723eb6608f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b4108c8931348355029cd683158aa96') in 0.068263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_42.asset
+  artifactKey: Guid(014cd403d8fa6ec4c9eb09ed4c120d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_42.asset using Guid(014cd403d8fa6ec4c9eb09ed4c120d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '120a97f19042ddbc122d754061e5cff7') in 0.065645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_46.asset
+  artifactKey: Guid(ad30c449e5b71fa42b37fe86d53cd3bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_46.asset using Guid(ad30c449e5b71fa42b37fe86d53cd3bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a244c06bfbbb2f47a087d7501cfde173') in 0.067048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_107.asset
+  artifactKey: Guid(bb925ad796ea6b84b86c23dac34cbbae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_107.asset using Guid(bb925ad796ea6b84b86c23dac34cbbae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63f1b9ea38fe9da7fadf367c09cb68f2') in 0.126247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_31.asset
+  artifactKey: Guid(984a711d41153d246adeec1d6cca65cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_31.asset using Guid(984a711d41153d246adeec1d6cca65cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1bb02092fe409b9bdf665dcedb791b4') in 0.053353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027796 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_28.asset
+  artifactKey: Guid(9826a205d18425d488e4785037681da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_28.asset using Guid(9826a205d18425d488e4785037681da9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '312da52e1f470fbd0c7f9ed5773333ed') in 0.070573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_20.asset
+  artifactKey: Guid(0e67964234cb9bb47a13709071948396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_20.asset using Guid(0e67964234cb9bb47a13709071948396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61f87ebb9b90b724f31220b310c08af4') in 0.155174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_167.asset
+  artifactKey: Guid(28f1e0e717405f9478479a9377f404ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_167.asset using Guid(28f1e0e717405f9478479a9377f404ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42b793b986ed79ccacc461c3184add71') in 0.127980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_69.asset
+  artifactKey: Guid(51674a9e112d7ff43ac7bf154fea6cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_69.asset using Guid(51674a9e112d7ff43ac7bf154fea6cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69ac45ffb6df4c6a3f169932a60befbc') in 0.034855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_74.asset
+  artifactKey: Guid(11fe83f168c9c2343920a5fcba85ef77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_74.asset using Guid(11fe83f168c9c2343920a5fcba85ef77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '764daeae856bb02f111eb9993f740285') in 0.056022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_70.asset
+  artifactKey: Guid(8cebeccc4c51ce444ae70e25bacde8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_70.asset using Guid(8cebeccc4c51ce444ae70e25bacde8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7314896f8501ff4411247d23f08dee07') in 0.106468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001465 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_72.asset
+  artifactKey: Guid(ae4b5022e848fcb4dbc07b727c27a840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_72.asset using Guid(ae4b5022e848fcb4dbc07b727c27a840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b661954ff75f497ab9d09642a940beed') in 0.159061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_16.asset
+  artifactKey: Guid(263a2ca7f65bde94281bba4c79ca6c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_16.asset using Guid(263a2ca7f65bde94281bba4c79ca6c3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfdaaa1897ca90dc5dc050b2bb1b22a4') in 0.072721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_103.asset
+  artifactKey: Guid(2e0e68ef85e38934a804695edf72d796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_103.asset using Guid(2e0e68ef85e38934a804695edf72d796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b15ab420c8febeac18a1b1496d64a018') in 0.097582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_62.asset
+  artifactKey: Guid(472f90d2f81b6d245af144a5371abc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_62.asset using Guid(472f90d2f81b6d245af144a5371abc21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27c90bebc6ec24497933f5061b6d295e') in 0.308933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_84.asset
+  artifactKey: Guid(331d6adacc53af64d841523270402288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_84.asset using Guid(331d6adacc53af64d841523270402288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8608134b1b4dca911b71423b5e78f15d') in 0.089901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_96.asset
+  artifactKey: Guid(9402547a610387e44b3df1e74db0a824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_96.asset using Guid(9402547a610387e44b3df1e74db0a824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad6757d64647f48b2c879af7387c3aca') in 0.176457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_3.asset
+  artifactKey: Guid(905ddaa0b9630eb4cbb0175c2bf1c500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_3.asset using Guid(905ddaa0b9630eb4cbb0175c2bf1c500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6681ad629177341e81d04f4d4f86df63') in 0.027238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_87.asset
+  artifactKey: Guid(dcf0b7d2f9a3a4749a77a8b86a1ac237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_87.asset using Guid(dcf0b7d2f9a3a4749a77a8b86a1ac237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d5caccb3ebee0292102abf200b92b42') in 0.028957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_110.asset
+  artifactKey: Guid(226907e5c810fa848965cf926352c22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_110.asset using Guid(226907e5c810fa848965cf926352c22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd51c8b80dddf1464fcec3655334016df') in 0.041567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_26.asset
+  artifactKey: Guid(801f3a8f21fcd8b438788b2b4de7b6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_26.asset using Guid(801f3a8f21fcd8b438788b2b4de7b6e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78a75465c2cd935ab514e55abba09124') in 0.053948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_104.asset
+  artifactKey: Guid(ab54c7b33e1da624f99599110e2e1b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_104.asset using Guid(ab54c7b33e1da624f99599110e2e1b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8c4918fa4b2dcbf6f217739d65bbcf3') in 0.039306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_130.asset
+  artifactKey: Guid(067a5546ae823184ab895ed77c0a8106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_130.asset using Guid(067a5546ae823184ab895ed77c0a8106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6415b541f793b906ed6e5fc3166aa71') in 0.202936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_67.asset
+  artifactKey: Guid(e2ee4108f08168a49840296ebef7d9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_67.asset using Guid(e2ee4108f08168a49840296ebef7d9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60b1580f477ce8ba72f2eae24c0ee8fc') in 0.058465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/Animation/Player/Idle_2.anim
+  artifactKey: Guid(9f9225cc7f223e1418b0033682889810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Player/Idle_2.anim using Guid(9f9225cc7f223e1418b0033682889810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd362c9cbf4f76769ff941fde744b0b2a') in 0.214576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004993 seconds.
+  path: Assets/Sprites/Player/Crouching_Idle_KG_1.png
+  artifactKey: Guid(a7b5f2b9804570f4c84b3d7e36b84d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Crouching_Idle_KG_1.png using Guid(a7b5f2b9804570f4c84b3d7e36b84d0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edeb5b412de8e52eac02e4bdb427f481') in 0.416720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001424 seconds.
+  path: Assets/Animation/Item/Gold.anim
+  artifactKey: Guid(2b87f8ea1e6711c4b846ca269c68b523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Item/Gold.anim using Guid(2b87f8ea1e6711c4b846ca269c68b523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0f65b307708ca53bc0c5dd679224b51') in 0.135520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animation/Player/Land_2.anim
+  artifactKey: Guid(c6f1dffa7e52fcf4088cf9f7c6eeaecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Player/Land_2.anim using Guid(c6f1dffa7e52fcf4088cf9f7c6eeaecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f09b9a1e861cc0785c923896b2d4daba') in 0.099959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Player/Hurt_KG_2.png
+  artifactKey: Guid(b57b25d3b9b570e4ea130d993cf170d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Hurt_KG_2.png using Guid(b57b25d3b9b570e4ea130d993cf170d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b193d7332b360fcc00612d5226388ed9') in 0.243784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Sprites/Player/Dying_KG_2.png
+  artifactKey: Guid(8441489424181a64ab42bfc79ce7dfac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Dying_KG_2.png using Guid(8441489424181a64ab42bfc79ce7dfac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ebc9ba5d928bbd5f746d5faa3a18952') in 0.081894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Player/Fall_KG_2.gif
+  artifactKey: Guid(9615835a558b40346a86440763dea5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Fall_KG_2.gif using Guid(9615835a558b40346a86440763dea5f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e0e731ebc7deec90323bd1027e381c6') in 0.120052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001790 seconds.
+  path: Assets/Sprites/Player/Dashing_KG_1.png
+  artifactKey: Guid(2529bd972b5b1cd4d9e5dd349ffb9ddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Dashing_KG_1.png using Guid(2529bd972b5b1cd4d9e5dd349ffb9ddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53fcb8a478fd2fe0ae0b5d13151902f8') in 0.052628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Sprites/Player/Attack_KG_3.png
+  artifactKey: Guid(e85024269ba1faf4abcc8e7d8532126b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Attack_KG_3.png using Guid(e85024269ba1faf4abcc8e7d8532126b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '275256de1ec5be1721d3313da480c522') in 0.045301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_50.asset
+  artifactKey: Guid(865553c0e58f4fc44909b3b22a9d0b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_50.asset using Guid(865553c0e58f4fc44909b3b22a9d0b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '155f7351640721028ff2240370639f7b') in 0.024975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_152.asset
+  artifactKey: Guid(ef465e64f7affde44ba64e9692eeefd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_152.asset using Guid(ef465e64f7affde44ba64e9692eeefd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3c71cea1976d21fe1cb5f9fe0b2cbe7') in 0.026970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_47.asset
+  artifactKey: Guid(7a1ba2e29930d1a438b2aac7c0f54b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_47.asset using Guid(7a1ba2e29930d1a438b2aac7c0f54b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5deab31541a6322eb0d06874a73d2da') in 0.024836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_68.asset
+  artifactKey: Guid(b9992ed191c92dd4aa500ba6212344d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_68.asset using Guid(b9992ed191c92dd4aa500ba6212344d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23f3e25bc98c4aefee011a9b8e0bc520') in 0.020375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_151.asset
+  artifactKey: Guid(5bd084c2eb816a6488ff8ab4e49e7e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_151.asset using Guid(5bd084c2eb816a6488ff8ab4e49e7e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00f60c1acaa53954deb2d60646a99551') in 0.024173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Player/Crouching_Walk_KG_1.png
+  artifactKey: Guid(1471d98e4d831df49b7274eb8f97674d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Crouching_Walk_KG_1.png using Guid(1471d98e4d831df49b7274eb8f97674d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cec82be47f45a483a2860a8d481a89f') in 0.039164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_13.asset
+  artifactKey: Guid(e491425572a0cc6419fce893d8f16f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_13.asset using Guid(e491425572a0cc6419fce893d8f16f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '325c0650825a99d51e4bc969e1ce0291') in 0.024193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_19.asset
+  artifactKey: Guid(781299523616f644e9be180ad97ba87d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_19.asset using Guid(781299523616f644e9be180ad97ba87d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac3b960a41fddd3f9f3e5070f53ab201') in 0.022124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_128.asset
+  artifactKey: Guid(48403d8421827474382857d8f2916a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_128.asset using Guid(48403d8421827474382857d8f2916a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12fe7732f2f372dcf90e92e171cdb7db') in 0.024003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_37.asset
+  artifactKey: Guid(2275cad8282f2b5488ff11ed9129620d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_37.asset using Guid(2275cad8282f2b5488ff11ed9129620d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1bda85670b1252621b03d33e9beaddd') in 0.027177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_65.asset
+  artifactKey: Guid(e620d1190dfcc1f46881c71f3e370f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_65.asset using Guid(e620d1190dfcc1f46881c71f3e370f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61d3a6599a02328ae20c964b46f597b7') in 0.026309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_39.asset
+  artifactKey: Guid(c5a9e5d17eec5aa4696afced9014447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_39.asset using Guid(c5a9e5d17eec5aa4696afced9014447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a750ef9c2f3d05c16be84071be612770') in 0.021561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_95.asset
+  artifactKey: Guid(26fd9249c7af41d4aba8fd890a981112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_95.asset using Guid(26fd9249c7af41d4aba8fd890a981112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '626b7543e5cebe3dfd957ed14ace2cc7') in 0.026210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gothicvania-Town/Scenes/demoSettings.lighting
+  artifactKey: Guid(62d8109790ff7094baa8bcf3cbff486b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Scenes/demoSettings.lighting using Guid(62d8109790ff7094baa8bcf3cbff486b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '42e208240710970675477662c928aeb4') in 0.038166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_91.asset
+  artifactKey: Guid(4000e31fbaba18442943a569467fd5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_91.asset using Guid(4000e31fbaba18442943a569467fd5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '791a21cc20e6b538f748185a87257292') in 0.024939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_51.asset
+  artifactKey: Guid(a8479e7a0657e8b45a20e21859175d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_51.asset using Guid(a8479e7a0657e8b45a20e21859175d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7de1fc7b5492b0793d9e14eb25460a5b') in 0.027820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Player/Attack_KG_2.png
+  artifactKey: Guid(b8bb5c70552c34449b8a5bffb88c48d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Attack_KG_2.png using Guid(b8bb5c70552c34449b8a5bffb88c48d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9f0f1c4a87f4e5a4047f70fdbffe0763') in 0.052606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_143.asset
+  artifactKey: Guid(0b1fd376c4b2ad74299c138c2160692c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_143.asset using Guid(0b1fd376c4b2ad74299c138c2160692c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8762df086bf0c4bb7d75bb07dfdc64ec') in 0.028766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_161.asset
+  artifactKey: Guid(a652312a883f41e41a3d8a7d4449103e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_161.asset using Guid(a652312a883f41e41a3d8a7d4449103e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e7cf7adc93d83723e47a69ce825d14b') in 0.024422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_88.asset
+  artifactKey: Guid(72f1a4cc9fabee6418a7258bb71653c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_88.asset using Guid(72f1a4cc9fabee6418a7258bb71653c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38dd6d1021cfe01cd7c66b3225de5d6f') in 0.024153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_100.asset
+  artifactKey: Guid(8ce3b1f85439b644db17bcaf4a79f581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_100.asset using Guid(8ce3b1f85439b644db17bcaf4a79f581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c002676eed037f6fc49dc0d9fcb9eeac') in 0.025370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_131.asset
+  artifactKey: Guid(2f96bce605a89e445b18e78e6914bdad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_131.asset using Guid(2f96bce605a89e445b18e78e6914bdad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e19733070681d6b41802e3de5ff85f64') in 0.025406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_45.asset
+  artifactKey: Guid(a3a044315449201468b83e9458771866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_45.asset using Guid(a3a044315449201468b83e9458771866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '035a3274163ce2cc33e210463d1b1d3f') in 0.023882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tilemap/Platform Palette.prefab
+  artifactKey: Guid(4c458b5860d9d0a49a80cbdff452355e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Platform Palette.prefab using Guid(4c458b5860d9d0a49a80cbdff452355e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a973c325bf757496561ef2bceab9c6f') in 0.043415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Tilemap/Project/right-roof.asset
+  artifactKey: Guid(9a95b878da0f9284e839cf5a9e1a8fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/right-roof.asset using Guid(9a95b878da0f9284e839cf5a9e1a8fcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '218369805374a5f3fd997515400da62b') in 0.027880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Player/Shield_Up_KG_1.png
+  artifactKey: Guid(f57c5e99afaa2a048b49fce1c9469fb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Shield_Up_KG_1.png using Guid(f57c5e99afaa2a048b49fce1c9469fb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c846feea56f278ab3ac1a539e97440ae') in 0.268173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilemap/Project/roof.asset
+  artifactKey: Guid(d8b0a5751c42ff24d9c046edb98695be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/roof.asset using Guid(d8b0a5751c42ff24d9c046edb98695be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8ee21f08270d42419c95e0d50d8e100') in 0.087019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002731 seconds.
+  path: Assets/Sprites/Simple 2D Platformer BE2/Sprites/Enemy.png
+  artifactKey: Guid(5d4daff38e3d9174b873918abcf2c1d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Simple 2D Platformer BE2/Sprites/Enemy.png using Guid(5d4daff38e3d9174b873918abcf2c1d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f0fe8046d9ee7748f0fdc5235424068') in 0.202374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002356 seconds.
+  path: Assets/Sprites/Simple 2D Platformer BE2/ReadMe/Icon.png
+  artifactKey: Guid(6b868ddfc4bbd9b4d83c6c2708775a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Simple 2D Platformer BE2/ReadMe/Icon.png using Guid(6b868ddfc4bbd9b4d83c6c2708775a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24febda60b999ab0e07c26da82852876') in 0.326365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilemap/Project/wood-legs.asset
+  artifactKey: Guid(63834a70a7c10ca4782476fa6abd50bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/wood-legs.asset using Guid(63834a70a7c10ca4782476fa6abd50bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '019ccf4be53b4c0e36f881312fe49565') in 0.155823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SunnyLand Artwork/Music tracks/Maniac.ogg
+  artifactKey: Guid(596e0f53d0760684897f73aa6d85324a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Music tracks/Maniac.ogg using Guid(596e0f53d0760684897f73aa6d85324a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfffdf24656130418dce45e9962ec449') in 1.975007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tilemap/Project/stairs-wall.asset
+  artifactKey: Guid(a0c3fe411fc5a4c42af4a88ae2438f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/stairs-wall.asset using Guid(a0c3fe411fc5a4c42af4a88ae2438f35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b36213f98ff728c238ebe9109050a69') in 0.070797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tilemap/Project/slope.asset
+  artifactKey: Guid(2ea9f73c8b284e8489070c5ae8dafd6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/slope.asset using Guid(2ea9f73c8b284e8489070c5ae8dafd6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4873b8045b0c63580899865e2316bea9') in 0.136562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/Simple 2D Platformer BE2/Sprites/Objects.png
+  artifactKey: Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Simple 2D Platformer BE2/Sprites/Objects.png using Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '108b7ae3b8e4a4942cdd8f60ccd6780b') in 0.072377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001770 seconds.
+  path: Assets/Sprites/Tile/city 7/2.png
+  artifactKey: Guid(071ad32df3cff87439cbe92a31387b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 7/2.png using Guid(071ad32df3cff87439cbe92a31387b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a848ddacbf32900622322056319fd00f') in 0.110106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand Artwork/Scenes/Demo_characters.unity
+  artifactKey: Guid(e8451b5ab7f76c44f9bbbe39432cb874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Scenes/Demo_characters.unity using Guid(e8451b5ab7f76c44f9bbbe39432cb874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed327aff05117ef2de0d813f3b004106') in 0.062368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/Tile/city 1/2.png
+  artifactKey: Guid(cf4bc8aacc4220e4cb3533c5f7e65582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 1/2.png using Guid(cf4bc8aacc4220e4cb3533c5f7e65582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14cc9de43654b54f31e52fe130783d68') in 0.104157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SunnyLand Artwork/Environment/props/palm.png
+  artifactKey: Guid(d00948e821f5e424ea01b186fe00a588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/props/palm.png using Guid(d00948e821f5e424ea01b186fe00a588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '814b7736176a3a997ac30a35764e2d0c') in 0.130321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002865 seconds.
+  path: Assets/SunnyLand Artwork/Environment/props/spikes.png
+  artifactKey: Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/props/spikes.png using Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7c0b4a17b9e0a5f87bb532ad810b8f2') in 0.073533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand Artwork/Environment/props/rock-1.png
+  artifactKey: Guid(4b8df3e837c15134e966ef69ce5e536d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/props/rock-1.png using Guid(4b8df3e837c15134e966ef69ce5e536d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a1bd9d9577e0913916b21e0764fc625') in 0.137914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand Artwork/Environment/props/wooden-house.png
+  artifactKey: Guid(81dd090b36d240b4a9abef020ad7dcd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/props/wooden-house.png using Guid(81dd090b36d240b4a9abef020ad7dcd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c272dd34896d383e612473b508851ecf') in 0.090796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/SunnyLand Artwork/Environment/props/door.png
+  artifactKey: Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/props/door.png using Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c222e3e1fc2f887f2f1630aa58e2a49c') in 0.072623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/Sprites/Player/ladders_KG_1.png
+  artifactKey: Guid(9869508934772b04dbb3af1eb96fa518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/ladders_KG_1.png using Guid(9869508934772b04dbb3af1eb96fa518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dbbb115bac29ebc4cb00aa48602362b') in 0.134032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_109.asset
+  artifactKey: Guid(88ebfe9a21771ba4abbdad7e0e8cde1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_109.asset using Guid(88ebfe9a21771ba4abbdad7e0e8cde1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '083e4c53fc2e00e020c21c1b7ddce317') in 0.111630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced.png
+  artifactKey: Guid(261212b977f594d5dbc48631a5c1295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced.png using Guid(261212b977f594d5dbc48631a5c1295c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4186cd2b597922371bbf1fd77dac14c9') in 1.097131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_42.asset
+  artifactKey: Guid(bd649b0ac389e614584644136213427d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_42.asset using Guid(bd649b0ac389e614584644136213427d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80402d77cc5987f98709508013f318b1') in 0.105460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_34.asset
+  artifactKey: Guid(ebb04c796935ff349956ff30bf515073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_34.asset using Guid(ebb04c796935ff349956ff30bf515073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82020a776a5988628aabd3ac037262c1') in 0.018202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_4.asset
+  artifactKey: Guid(54b92458ba807204c9bec304cecbc5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_4.asset using Guid(54b92458ba807204c9bec304cecbc5f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f46dc573921fcdd0461c4d3e7c140ac') in 0.103435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_38.asset
+  artifactKey: Guid(897eed2c71ed45749b27f38e360b92fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_38.asset using Guid(897eed2c71ed45749b27f38e360b92fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd88f822b91507423c481a7a290863cdd') in 0.124357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_111.asset
+  artifactKey: Guid(9eda67683fc37264da2456a2a6d1501e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_111.asset using Guid(9eda67683fc37264da2456a2a6d1501e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d57dd184d83d798c571033432aa9d0c') in 0.142385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_47.asset
+  artifactKey: Guid(6267d21089f75674e8925b33d103c902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_47.asset using Guid(6267d21089f75674e8925b33d103c902) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81b69797989318cf7c3ffb1c41c359f7') in 0.137945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001969 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_62.asset
+  artifactKey: Guid(8eeb48ed30f7a1542b6cfeb217ae36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_62.asset using Guid(8eeb48ed30f7a1542b6cfeb217ae36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6285bc8764d35746636cdb8192adbf0e') in 0.134745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_58.asset
+  artifactKey: Guid(26a3ae836e2b82e43847066439abedc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_58.asset using Guid(26a3ae836e2b82e43847066439abedc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7770854833e1959bfd5f826650b2c86') in 0.092012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tile/city 8/4.png
+  artifactKey: Guid(8ff4d4e3593b11e4480431b3f847f3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 8/4.png using Guid(8ff4d4e3593b11e4480431b3f847f3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f21233bb7fa40d0c4af659691f1d086') in 0.139135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilemap/Project/left-roof.asset
+  artifactKey: Guid(e258b53d0003ff449bb43acbeb441d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/left-roof.asset using Guid(e258b53d0003ff449bb43acbeb441d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1f16089a71b757219c2d3b441522805') in 0.122887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_74.asset
+  artifactKey: Guid(c6552e41282d9554087c672319895a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_74.asset using Guid(c6552e41282d9554087c672319895a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d1e33c19177a4dd07a240a791f30418') in 0.107088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_75.asset
+  artifactKey: Guid(980de823f08f5c8429c5090bd39089aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_75.asset using Guid(980de823f08f5c8429c5090bd39089aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d3d74d673c8ebfd58e676dbd9b72e28') in 0.080475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_81.asset
+  artifactKey: Guid(dfa50464614d53b49aabdee1f66b799f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_81.asset using Guid(dfa50464614d53b49aabdee1f66b799f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dde7190ba9969b8e660d1f098ddbc649') in 0.028058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_76.asset
+  artifactKey: Guid(b7a237a064cdb1745bccdc2a214306d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_76.asset using Guid(b7a237a064cdb1745bccdc2a214306d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '055bcb8aa27a802d8c8d5d4deb6159f1') in 0.035954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002083 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_83.asset
+  artifactKey: Guid(64acea4efaed06d44bf141d8aaad8f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_83.asset using Guid(64acea4efaed06d44bf141d8aaad8f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '978ad4f4ea06d58986f78da7b07cf4fd') in 0.028504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilemap/Project/ground-wood-legs.asset
+  artifactKey: Guid(0ff75719f4f55c240a999e4167145a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/ground-wood-legs.asset using Guid(0ff75719f4f55c240a999e4167145a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6639d7e70630f63e37bf95d3faa44e2') in 0.022194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tile/city 7/5.png
+  artifactKey: Guid(119a143dc060268439c3a4f62a678d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 7/5.png using Guid(119a143dc060268439c3a4f62a678d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfad87cae33cc1f6fbcaa7ff5a9af197') in 0.044256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Tile/city 3/3.png
+  artifactKey: Guid(1332998c6a36f674184224f017cb1111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 3/3.png using Guid(1332998c6a36f674184224f017cb1111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29fac9fbfd5492519877c9ba7f66adb0') in 0.076934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/Sprites/Player/Power_Up_KG_1.png
+  artifactKey: Guid(08fa7bcf70076104f979376a96f9a7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Power_Up_KG_1.png using Guid(08fa7bcf70076104f979376a96f9a7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05acff32e121ffa8373565b19db93542') in 0.062911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000850 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_104.asset
+  artifactKey: Guid(d3d204bff4015dc40bad3ad2de76fad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_104.asset using Guid(d3d204bff4015dc40bad3ad2de76fad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4fff1ca48518348508e428fa334dfcf') in 0.036444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_107.asset
+  artifactKey: Guid(dc5ccd759b78a984eb2da40fa009bbac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_107.asset using Guid(dc5ccd759b78a984eb2da40fa009bbac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39dce84e8e7cc9564471f6cfe771a163') in 0.026307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_89.asset
+  artifactKey: Guid(33c04ad312209db4c90b81d31ebf40f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_89.asset using Guid(33c04ad312209db4c90b81d31ebf40f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08fbefad682b5539b5584ed98a68b0cc') in 0.047221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_87.asset
+  artifactKey: Guid(4859dbb994e2e7a48a617ec057901e6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_87.asset using Guid(4859dbb994e2e7a48a617ec057901e6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f5f80e32408cd7aecab55d922f0a8ff') in 0.064302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_119.asset
+  artifactKey: Guid(a5975cd7a255fa540b66d4bdf459a9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_119.asset using Guid(a5975cd7a255fa540b66d4bdf459a9f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4057564013cf3d44330e2aad0e09d194') in 0.045130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_121.asset
+  artifactKey: Guid(143694b4dba0f7748baf2df80fe2bebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_121.asset using Guid(143694b4dba0f7748baf2df80fe2bebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8a1163aa92e69b1a036d78ac245b446') in 0.041086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_99.asset
+  artifactKey: Guid(1f98f6970b7fce24a97d80bfb07728b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_99.asset using Guid(1f98f6970b7fce24a97d80bfb07728b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9cc79c79071dcfccde5fe138b81141f') in 0.055121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_96.asset
+  artifactKey: Guid(2da0581e3a69dee46bd67ef0558303bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_96.asset using Guid(2da0581e3a69dee46bd67ef0558303bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72ba3388be3dfe593e58d9704f1e22c7') in 0.051877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_54.asset
+  artifactKey: Guid(c2ee9b794942d86438549fd521ed5c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_54.asset using Guid(c2ee9b794942d86438549fd521ed5c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df6f1072caf9ed58de60dc98621e9f39') in 0.030299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Player/Ledge_Grab_KG_1.png
+  artifactKey: Guid(af2d6d8ecd2ed1743b92ef67f4424a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Player/Ledge_Grab_KG_1.png using Guid(af2d6d8ecd2ed1743b92ef67f4424a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51bf52accef4abf0a004352e0defd307') in 0.060047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_22.asset
+  artifactKey: Guid(06550fa9002237d4fb02c42e0120fdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_22.asset using Guid(06550fa9002237d4fb02c42e0120fdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd780f36ca513f55c10139ad534823f9') in 0.030267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_2.asset
+  artifactKey: Guid(1e3aeea787bba7b4dab789d7b67cb522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_2.asset using Guid(1e3aeea787bba7b4dab789d7b67cb522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abef723bd7a165da02128dfc034dfa44') in 0.040400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_30.asset
+  artifactKey: Guid(3571755bba4191b4ba926cbb3cdc6c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_30.asset using Guid(3571755bba4191b4ba926cbb3cdc6c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee8302fa47e953db692f20168097a6e6') in 0.030001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_23.asset
+  artifactKey: Guid(bbc2cdf74af0dc34e9754ee84158bdfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_23.asset using Guid(bbc2cdf74af0dc34e9754ee84158bdfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22fef1ccd1ba8706e4fc99bf08e0cee7') in 0.045496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Tile/city 7/7.png
+  artifactKey: Guid(7b041e9a9c5ba3e47b16faa78b5ad21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 7/7.png using Guid(7b041e9a9c5ba3e47b16faa78b5ad21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d2f17a2ec47229d5e9a51a2f7b55da5') in 0.057065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprites/Tile/city 2/10.png
+  artifactKey: Guid(9d4607c1ce0ae954ab9ce8eba8d74033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Tile/city 2/10.png using Guid(9d4607c1ce0ae954ab9ce8eba8d74033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6898f6f1e84b4a62b2af7900ba4f69c') in 0.060903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SunnyLand Artwork/Scenes/Demo_environment.unity
+  artifactKey: Guid(014c3ef8a971d334582a48e9f80043d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Scenes/Demo_environment.unity using Guid(014c3ef8a971d334582a48e9f80043d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a1d0c792a4472258684533604423330') in 0.034393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001163 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_171.asset
+  artifactKey: Guid(8a9a57894c33d70419565aead8e7a822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_171.asset using Guid(8a9a57894c33d70419565aead8e7a822) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1ec1f86bba02498f29b81a388723638') in 0.069210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_125.asset
+  artifactKey: Guid(e71627a39af048949abeb674ca88e01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_125.asset using Guid(e71627a39af048949abeb674ca88e01d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '810870aa4d89debca90818d238696029') in 0.033424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_15.asset
+  artifactKey: Guid(decc7f1d0780bb24cadd18ed47a80222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_15.asset using Guid(decc7f1d0780bb24cadd18ed47a80222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d0992b9e5ed620418b42a2fb5995e09') in 0.036220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_48.asset
+  artifactKey: Guid(73368284854e0e14ba45ea3973b06527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_48.asset using Guid(73368284854e0e14ba45ea3973b06527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52f342a0518b800ac1c68432ad3d2d9f') in 0.036344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_65.asset
+  artifactKey: Guid(041b86caf25287046b3c9ad969c9e6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_65.asset using Guid(041b86caf25287046b3c9ad969c9e6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f12e5d1add8ffa43454d749a31e27d6f') in 0.052307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_81.asset
+  artifactKey: Guid(27122d8a9ccdad84daea8bfe76a04d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_81.asset using Guid(27122d8a9ccdad84daea8bfe76a04d66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37d40732b989b96e2e470eee99fc2079') in 0.040050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/crate-stack.png
+  artifactKey: Guid(5511879193aae49419cd6daa384e4e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/crate-stack.png using Guid(5511879193aae49419cd6daa384e4e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ca194aa7794e1bf99554b853faa6184') in 0.067063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_92.asset
+  artifactKey: Guid(8bee58cbc172728449ee2b453c8c95b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_92.asset using Guid(8bee58cbc172728449ee2b453c8c95b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe57e82f043d0652e021aae638f0c4ae') in 0.036668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_70.asset
+  artifactKey: Guid(e5adde6f61cfd184eadc646db909594f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_70.asset using Guid(e5adde6f61cfd184eadc646db909594f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7636a22e878cc2d59efec4fcb487eb09') in 0.028508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_95.asset
+  artifactKey: Guid(de380f08d43d6c84c9c5428135f0b917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_95.asset using Guid(de380f08d43d6c84c9c5428135f0b917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1119ec87ead71bf9f020b44386e86521') in 0.027216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_76.asset
+  artifactKey: Guid(4cdaa07cd135706469891cf0f687ef69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_76.asset using Guid(4cdaa07cd135706469891cf0f687ef69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02b655bdd8b57f22043c8c48ab1cce20') in 0.028264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_96.asset
+  artifactKey: Guid(6fe459224dd9c274bb22bd8bbb263e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_96.asset using Guid(6fe459224dd9c274bb22bd8bbb263e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20bf384bc320998c9d671b85dc1079ba') in 0.038690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_29.asset
+  artifactKey: Guid(ea0f1b9046bd287439ee03e68cb4a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_29.asset using Guid(ea0f1b9046bd287439ee03e68cb4a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33ca80cf27ef255d77e37e62bf61a6b4') in 0.035405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004930 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_45.asset
+  artifactKey: Guid(8e032d8c33f4d9d449623ed9fbfccdbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_45.asset using Guid(8e032d8c33f4d9d449623ed9fbfccdbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc6b7f296f11ceed507dcaec95065ea5') in 0.027598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_39.asset
+  artifactKey: Guid(78bb579ed98620c499dd9d9466fd48d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_39.asset using Guid(78bb579ed98620c499dd9d9466fd48d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7421cb3e979fcbb84376b33ee208ef7e') in 0.020701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_72.asset
+  artifactKey: Guid(c371e91db78123048854d855f5afe868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_72.asset using Guid(c371e91db78123048854d855f5afe868) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0feecb036668f49a9f0c2a1f3d786faf') in 0.046742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-right.png
+  artifactKey: Guid(a15be16791e2a4bf9926da9c40933bf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror-right.png using Guid(a15be16791e2a4bf9926da9c40933bf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5986ffbf93d02abc2d68d3533bb44889') in 0.081727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.asset
+  artifactKey: Guid(c66747a6b3ac8c5489f4225fa053578a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground.asset using Guid(c66747a6b3ac8c5489f4225fa053578a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a339f1406db1349eb92eb7a15a25679') in 0.079892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.asset
+  artifactKey: Guid(6f6b279cd9c48e94db15cd03cd39118e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-wood.asset using Guid(6f6b279cd9c48e94db15cd03cd39118e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c19ca10b68f90bd5b056a10ce10ba531') in 0.094835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-right-wood.png
+  artifactKey: Guid(edac48a28c5cd4707ba4047dfe4f451d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/top-right-wood.png using Guid(edac48a28c5cd4707ba4047dfe4f451d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f42d5925a8fd622070149b63e17586a') in 0.058081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005011 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/props-sliced/house-c.png
+  artifactKey: Guid(2918541d5830b40ff9298093228c04f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/props-sliced/house-c.png using Guid(2918541d5830b40ff9298093228c04f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0f879d8db52192870e7c0d837bc736b') in 0.121749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wall-b.png
+  artifactKey: Guid(92cd0cc78cdf24122bf3e380fe670b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-wall-b.png using Guid(92cd0cc78cdf24122bf3e380fe670b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4431829716feb9063ed9404bb719ce4b') in 0.065081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png
+  artifactKey: Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-walk/hat-man-walk-2.png using Guid(36ef399a34e1d4d6e9fafe520195effc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d8e4e1d6ee489f53c3ae22002dba9d3') in 0.059418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-12.png
+  artifactKey: Guid(90e8848554914437d9cea1f26cb93b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-12.png using Guid(90e8848554914437d9cea1f26cb93b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b2d8ed05b34129783c363986535dcca') in 0.095680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png
+  artifactKey: Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-walk/bearded-walk-4.png using Guid(0d0cae25406c447e3a85ab8e195ac041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a29b97398ee289bed1092ff112ca8a90') in 0.076279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-4.png
+  artifactKey: Guid(b7c237ced05de4c44a8337e4c9d5da9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/bearded-idle/bearded-idle-4.png using Guid(b7c237ced05de4c44a8337e4c9d5da9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e492ad161589da310b89f1f133477e3') in 0.084207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-right.png
+  artifactKey: Guid(0da3760f971774ab2b579f57ea9d257e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror-right.png using Guid(0da3760f971774ab2b579f57ea9d257e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab293ec34d9172c4a08a7cba32026a72') in 0.118888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-1.png
+  artifactKey: Guid(a6adcfb84d9054ac486ef7a10722243d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/hat-man-idle/hat-man-idle-1.png using Guid(a6adcfb84d9054ac486ef7a10722243d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5743080deb7ebe6b34d2482ed328bf3') in 0.085615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk3.png
+  artifactKey: Guid(39fbd688d112e3a40b4385cf461cff80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk3.png using Guid(39fbd688d112e3a40b4385cf461cff80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3db5acba0a2dc28624bec853af74a4c4') in 0.042340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002625 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-7.png
+  artifactKey: Guid(1ba454cc6912c474e8b75fb444a0d373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/oldman-walk/oldman-walk-7.png using Guid(1ba454cc6912c474e8b75fb444a0d373) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94b5e4c101b9b62e4ec37e2a4dc59e43') in 0.052267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png
+  artifactKey: Guid(cf4eda157873a45cbba7857a92a403b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-1.png using Guid(cf4eda157873a45cbba7857a92a403b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30fc4e285361eeb029cb4aa441aeedd4') in 0.063455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-4.png
+  artifactKey: Guid(a02d410614ef1458096ef6e6077bb9b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-4.png using Guid(a02d410614ef1458096ef6e6077bb9b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2549e169f28724562042a41c6cc5f8f') in 0.077432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/bunny/Bunny-Animation.anim
+  artifactKey: Guid(600290b533c3c0b458e01fe6859ebfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/bunny/Bunny-Animation.anim using Guid(600290b533c3c0b458e01fe6859ebfd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1d331900c48e1674961dc778508e26d') in 0.041894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002662 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-6.png
+  artifactKey: Guid(19c21e75775b54859a836682f7043799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-walk/woman-walk-6.png using Guid(19c21e75775b54859a836682f7043799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa60f4b7a9a836e4769726cba03e8d92') in 0.075387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-right-corner.asset
+  artifactKey: Guid(17cc143e25275934eb44c40493adf1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-right-corner.asset using Guid(17cc143e25275934eb44c40493adf1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9b58b503fbf17376d0288a39ffe34df') in 0.040134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dog/Dog-Animation.anim
+  artifactKey: Guid(d2925e23d408b8340abe6a4ff652b2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dog/Dog-Animation.anim using Guid(d2925e23d408b8340abe6a4ff652b2b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '019b0c6d4fa25276c3e7e81f02acca4f') in 0.039413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/eagle/eagle-attack-1.controller
+  artifactKey: Guid(6f462620e81c7be4f9c392f019bc7c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/eagle/eagle-attack-1.controller using Guid(6f462620e81c7be4f9c392f019bc7c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ee1d09b1c12b6dfd9db0be630dafef2') in 0.031535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dino/dino1.controller
+  artifactKey: Guid(29d8cec4114872048b2ed9dbc5262e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dino/dino1.controller using Guid(29d8cec4114872048b2ed9dbc5262e90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3166e9c70fc6a6f2f4fabff779e310f9') in 0.038608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dog-idle/Dog-Idle-Animation.anim
+  artifactKey: Guid(f5ca4f073737f284999dc49d752cc67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dog-idle/Dog-Idle-Animation.anim using Guid(f5ca4f073737f284999dc49d752cc67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f56a444190a27e27cf2a17374834dbdf') in 0.041600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007490 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dog/dog2.png
+  artifactKey: Guid(09956f3f450064142b8ac9ee99879222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dog/dog2.png using Guid(09956f3f450064142b8ac9ee99879222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f73c43da5c3e312d78e646f27197aefb') in 0.129575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008838 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dog/dog1.controller
+  artifactKey: Guid(67c716b1f11d3dc489685ec26ea36bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dog/dog1.controller using Guid(67c716b1f11d3dc489685ec26ea36bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '163ff122816db48cb3b0066809257db5') in 0.059897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dog-idle/dog-idlet3.png
+  artifactKey: Guid(abb083edade2e8b4687731a96bc20ece) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dog-idle/dog-idlet3.png using Guid(abb083edade2e8b4687731a96bc20ece) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f57635d3d5353f6134bd5074667acfaf') in 0.070596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Dino/dino6.png
+  artifactKey: Guid(29a44c96526224c40872841f63d51bc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Dino/dino6.png using Guid(29a44c96526224c40872841f63d51bc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d6429de64a98ab07edea4949ea95871') in 0.050236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png
+  artifactKey: Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/roof.png using Guid(e4e395b3e8b6242bb8cadcc8cc984dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd26428ea1a087b4d476173f694033fa7') in 0.055031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/pig/Pig-Animation.anim
+  artifactKey: Guid(ad62acaa76ed88545bf0120b33983127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/pig/Pig-Animation.anim using Guid(ad62acaa76ed88545bf0120b33983127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e292cba18c24fffa9b4aac671bae6169') in 0.055084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/pig/pig1.png
+  artifactKey: Guid(4335316af6a6cf3419566d1c9313d2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/pig/pig1.png using Guid(4335316af6a6cf3419566d1c9313d2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0724444f0fb020900fa780fc8ca7a97a') in 0.105586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001218 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/opossum/opossum-3.png
+  artifactKey: Guid(74c5b1be9ca4343ca9d68c58dd8b7332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/opossum/opossum-3.png using Guid(74c5b1be9ca4343ca9d68c58dd8b7332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed93e42c9977ce68ca91fb8b45ce62c2') in 0.056268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer/Slimer-Animation.anim
+  artifactKey: Guid(8a6728eb38954a143aefbdc0aa2d2a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer/Slimer-Animation.anim using Guid(8a6728eb38954a143aefbdc0aa2d2a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea428a934bed5a0c8ebd74178d52a20a') in 0.034986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/opossum/opossum-5.png
+  artifactKey: Guid(d3b400141540442d5a4497e34887083f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/opossum/opossum-5.png using Guid(d3b400141540442d5a4497e34887083f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afe46bd72b07c93061d8b847ce1a2c0a') in 0.044096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-right.png
+  artifactKey: Guid(d9f50f119881d4482b730509af83ef67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-right.png using Guid(d9f50f119881d4482b730509af83ef67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6629fed924f71c48daf4cefc1f677f69') in 0.080479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-corner.asset
+  artifactKey: Guid(2882a2f0f0da97841855574395ed115b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/ground-corner.asset using Guid(2882a2f0f0da97841855574395ed115b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c1b863bb06809bd0939c7e40fd4f6b1') in 0.033953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_40.asset
+  artifactKey: Guid(ba033f5fb6dbff241a3b9eb280514941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_40.asset using Guid(ba033f5fb6dbff241a3b9eb280514941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a5d15925e3b6fba645dd0362bfe3b64') in 0.053526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle2.png
+  artifactKey: Guid(1e86708f6739f9d45a11a727fa710193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle2.png using Guid(1e86708f6739f9d45a11a727fa710193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '087ae34651ff9aacb6e9602ea2966b2c') in 0.050089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-6.png
+  artifactKey: Guid(f2065fb3797f1427aa8b3fc04af35e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-6.png using Guid(f2065fb3797f1427aa8b3fc04af35e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65c48952396849710e444dd24d9badde') in 0.075258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-1.controller
+  artifactKey: Guid(7f79d1aa08490e94bbaaea67098732b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-1.controller using Guid(7f79d1aa08490e94bbaaea67098732b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95e441bd28a5b82dcf1b1ac3072b3b5a') in 0.051044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle5.png
+  artifactKey: Guid(10994ce0c6eebb049ba7eb0d3d7a00ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle5.png using Guid(10994ce0c6eebb049ba7eb0d3d7a00ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '381263b63a7f3bfa5df72acdace4173e') in 0.070308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-2.png
+  artifactKey: Guid(1c8013ef5a0c147a5a059fde439f12b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-2.png using Guid(1c8013ef5a0c147a5a059fde439f12b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c54296f185e62687f76a180f5612c412') in 0.066061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Vulture-Idle/vulture-idle1.controller
+  artifactKey: Guid(f1f02346018ba87459a0ce9a12b62d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Vulture-Idle/vulture-idle1.controller using Guid(f1f02346018ba87459a0ce9a12b62d8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23fb101ab52f9bc0a1ed7a481fa2589d') in 0.020724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle4.png
+  artifactKey: Guid(9077953853ca197438699c0624f13697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle4.png using Guid(9077953853ca197438699c0624f13697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4569368cfaa173483dd9b1a6504beaad') in 0.075375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle1.controller
+  artifactKey: Guid(997a405e5a64b5c4087d6af2e89a9d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer-Idle/slimer-idle1.controller using Guid(997a405e5a64b5c4087d6af2e89a9d60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5749440704fc55621871a70fa464f1f7') in 0.036852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-1.png
+  artifactKey: Guid(815f73f3585044a32811d21502d58770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Fx/enemy-death/enemy-death-1.png using Guid(815f73f3585044a32811d21502d58770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32147fc7383f7b24388a5346035c5b8b') in 0.098046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-6.png
+  artifactKey: Guid(4f35b6058a719446ba48dc4dc2704635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-6.png using Guid(4f35b6058a719446ba48dc4dc2704635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f171b9096aaf723b88e1040fe0e8013') in 0.097466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005230 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/player/idle/player-idle-3.png
+  artifactKey: Guid(077f0469c420a4365bc67943783293df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/player/idle/player-idle-3.png using Guid(077f0469c420a4365bc67943783293df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b2ae0743940d9352815c0341648e686') in 0.099941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/player/climb/player-climb-2.png
+  artifactKey: Guid(94cffd9e5ecd3497c9831ffe8ae1605c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/player/climb/player-climb-2.png using Guid(94cffd9e5ecd3497c9831ffe8ae1605c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b40b15ae0b87005245c246f83161656f') in 0.098120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/player/jump/player-fall.png
+  artifactKey: Guid(598fb1767626f42e992bb9c2769d86ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/player/jump/player-fall.png using Guid(598fb1767626f42e992bb9c2769d86ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '512c6d944bddf94db65a534d2140bca8') in 0.094476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Items/gem/gem-3.png
+  artifactKey: Guid(de20f767e3f3f4aff870112daa2b2562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Items/gem/gem-3.png using Guid(de20f767e3f3f4aff870112daa2b2562) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52a81d45ddf0e2d5d10b18ce0847b96c') in 0.064679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001000 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-1.png
+  artifactKey: Guid(86ca59b9bca0e409b9ba2784fbe69f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-1.png using Guid(86ca59b9bca0e409b9ba2784fbe69f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18cf303b45c273f3b0c84a0c2e05f45f') in 0.060142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002416 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-1.controller
+  artifactKey: Guid(965e0f314868db7459bd29b788b20463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-1.controller using Guid(965e0f314868db7459bd29b788b20463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90f29cfac17be52d87e2921549c4dd74') in 0.043529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-2.png
+  artifactKey: Guid(116ac2caa16ad4f73af4539f8b07d019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/frog/idle/frog-idle-2.png using Guid(116ac2caa16ad4f73af4539f8b07d019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7905a1a0a7e860b93a9283e3d0c92ec') in 0.065609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang4.png
+  artifactKey: Guid(a79848618734cb040ad01feb8a6efb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang4.png using Guid(a79848618734cb040ad01feb8a6efb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64d093a64f04dbd233469bccf0c8fca1') in 0.079416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001090 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/player/climb/player-climb-1.png
+  artifactKey: Guid(be30195fa34cc45258a6ab7011cb297b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/player/climb/player-climb-1.png using Guid(be30195fa34cc45258a6ab7011cb297b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ecedf3a4c807726b512136ee72218fe') in 0.107601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004046 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/player/crouch/player-crouch-2.png
+  artifactKey: Guid(448d57c5e4c694686badaba281a6adff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/player/crouch/player-crouch-2.png using Guid(448d57c5e4c694686badaba281a6adff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98579a43502454e9517c8108809902c0') in 0.110366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002507 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png
+  artifactKey: Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-wall-mirror.png using Guid(8d62eb9e1c1cf4f189a234c4d966ab8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0b3ff95babce65869a8b5a8bcc65952') in 0.132941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006256 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Slimer/slimer1.controller
+  artifactKey: Guid(fc777b0cb35e51343831780a571a3652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Slimer/slimer1.controller using Guid(fc777b0cb35e51343831780a571a3652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de3c36cba6fe7db60171de69d6221ca6') in 0.056055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_48.asset
+  artifactKey: Guid(e5392e55430188a48bcd79da1a30765d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_48.asset using Guid(e5392e55430188a48bcd79da1a30765d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c2bbb09eed619c234f4dc31da473660') in 0.061901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001280 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Eagle Hurt/hurt3.png
+  artifactKey: Guid(296e9a93102d8424386878908e9ff45f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Eagle Hurt/hurt3.png using Guid(296e9a93102d8424386878908e9ff45f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '193d0e82c0c373eac7cb17d90968eaee') in 0.109354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_74.asset
+  artifactKey: Guid(4f4069c0ffc7b094693aa23267b44e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_74.asset using Guid(4f4069c0ffc7b094693aa23267b44e26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0948fc2ee7ba33b467e74b4b4c0cce2') in 0.056346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Tilemap/Project/ground-right-corner.asset
+  artifactKey: Guid(110b3a433a25128468afd0055e255a80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/Project/ground-right-corner.asset using Guid(110b3a433a25128468afd0055e255a80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '205f891f75fd1b1cd97f23cc30c29d6a') in 0.042394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_36.asset
+  artifactKey: Guid(db4fa6d5e47b2bb4fb72eef721796be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset-sliced_36.asset using Guid(db4fa6d5e47b2bb4fb72eef721796be1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8aac767af8508848756d0450c7758f76') in 0.035398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SunnyLand Artwork/Sprites/Enemies/Vulture-Idle/Vulture-idle-Animation.anim
+  artifactKey: Guid(c5e974486b2f8584480a39ea9e890906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Sprites/Enemies/Vulture-Idle/Vulture-idle-Animation.anim using Guid(c5e974486b2f8584480a39ea9e890906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a646c7b3ff3e36b2233e6fed298dadc') in 0.036395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SunnyLand Artwork/Environment/Tileset/tileset_97.asset
+  artifactKey: Guid(0ba72a06aab68684fa4fea5ae870558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SunnyLand Artwork/Environment/Tileset/tileset_97.asset using Guid(0ba72a06aab68684fa4fea5ae870558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9bb13960b94d8c1fffd4f39c11a5e0f8') in 0.031635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-6.png
+  artifactKey: Guid(757d77b4d88fb48ec99de71842408bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Sprites/woman-idle/woman-idle-6.png using Guid(757d77b4d88fb48ec99de71842408bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b5a338dc5eb70058dcfcef1d8c1b677') in 0.047281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Animation/Player/Player.controller
+  artifactKey: Guid(8ff4b415cfea4604ea57e54fe0eb5b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/Player/Player.controller using Guid(8ff4b415cfea4604ea57e54fe0eb5b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1271a56596ab67388df70a582c262c1') in 0.029889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_11.asset
+  artifactKey: Guid(d8d40388ffa42a14ba3152bd5732447c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_11.asset using Guid(d8d40388ffa42a14ba3152bd5732447c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1240b7b221e550a6c1c0291afc0041ce') in 0.032889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_25.asset
+  artifactKey: Guid(cd9012ab0402ed846936457464ee1545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_25.asset using Guid(cd9012ab0402ed846936457464ee1545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87620e892100c6cbaac6b3ff7ea09f40') in 0.032200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tilemap/s4m_ur4i_8x8_minimal-future_75.asset
+  artifactKey: Guid(b727de69a080d8e4c8a5fbe436517544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tilemap/s4m_ur4i_8x8_minimal-future_75.asset using Guid(b727de69a080d8e4c8a5fbe436517544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96d77ad9348295bb7c86c1fb22ad2e6a') in 0.034315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror.png
+  artifactKey: Guid(db17021c541cf4333b331eac536e3d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gothicvania-Town/Art/Environment/sliced-tileset/stairs-mirror.png using Guid(db17021c541cf4333b331eac536e3d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf687b8bdf29aa1898d498de72ecc25b') in 0.049207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 44.068388 seconds.
+  path: Assets/Tilemap/Project/New Palette.prefab
+  artifactKey: Guid(de05f55aa12e77340b0110d43ba8c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Project/New Palette.prefab using Guid(de05f55aa12e77340b0110d43ba8c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ef7bd461a0798a0fcaaf5464f1956') in 0.910874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
