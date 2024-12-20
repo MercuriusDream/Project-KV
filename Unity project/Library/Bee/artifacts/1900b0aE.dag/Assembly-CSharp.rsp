@@ -376,7 +376,6 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/EnemyMove.cs"
 "Assets/Scripts/PlayerMove.cs"
-"Assets/Sprites/Simple 2D Platformer BE2/ReadMe/Scripts/ReadmeBE2.cs"
 -langversion:9.0
 
 /deterministic
